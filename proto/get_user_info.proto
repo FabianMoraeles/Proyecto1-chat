@@ -1,8 +1,0 @@
-syntax = "proto3";
-package chat;
-
-message GetUserInfo {
-  string username_des = 1;
-  string username     = 2;
-  string ip           = 3;
-}

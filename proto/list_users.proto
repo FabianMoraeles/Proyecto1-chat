@@ -1,7 +1,0 @@
-syntax = "proto3";
-package chat;
-
-message ListUsers {
-  string username = 1;
-  string ip       = 2;
-}

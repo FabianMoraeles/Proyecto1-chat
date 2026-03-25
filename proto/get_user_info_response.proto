@@ -1,9 +1,0 @@
-syntax = "proto3";
-package chat;
-import "common.proto";
-
-message GetUserInfoResponse {
-  string ip_address = 1;
-  string username = 2;
-  StatusEnum status = 3;
-}
